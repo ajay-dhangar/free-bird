@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #4d5061, #48df84, #fff, #48df84, #4d5061);
+    font: 1rem normal Rammetto One, Tahoma, sans-serif;
+    height: 95vh;
+  }
+  canvas {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+  }
+  #o {
+    display: none;
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    color: #fff;
+    text-align: center;
+    font-size: 140%;
+  }
